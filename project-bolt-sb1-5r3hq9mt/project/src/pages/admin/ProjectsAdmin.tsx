@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Plus, Search, Pencil, Trash2, Copy, X, Star, Eye, EyeOff, ExternalLink, Github,
+  Plus, Search, Pencil, Trash2, Copy, X, Star, Eye, EyeOff,
 } from 'lucide-react';
 import { PageHeader, EmptyState } from '@/components/admin/AdminUI';
 import { supabase } from '@/lib/supabase';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Save, Upload, CheckCircle2 } from 'lucide-react';
+import { Save, CheckCircle2 } from 'lucide-react';
 import { PageHeader } from '@/components/admin/AdminUI';
 import { supabase } from '@/lib/supabase';
 import { uploadFile } from '@/lib/storage';

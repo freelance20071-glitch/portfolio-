@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Send, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-import { validateContactForm, sanitizeUrl } from '@/lib/sanitize';
+import { validateContactForm } from '@/lib/sanitize';
 
 interface ServiceContactModalProps {
   open: boolean;

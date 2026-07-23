@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, MailOpen, Trash2, X, Reply, Tag, ArrowLeft } from 'lucide-react';
+import { Mail, MailOpen, Trash2, Reply, Tag, ArrowLeft } from 'lucide-react';
 import { PageHeader, EmptyState } from '@/components/admin/AdminUI';
 import { supabase } from '@/lib/supabase';
 import type { Message } from '@/lib/types';

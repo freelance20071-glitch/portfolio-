@@ -22,7 +22,7 @@ export async function deleteFile(url: string): Promise<void> {
     if (parts.length < 2) return;
     const path = parts[1];
     await supabase.storage.from(STORAGE_BUCKET).remove([path]);
-  } catch (e) {
+  } catch {
     // best-effort
   }
 }

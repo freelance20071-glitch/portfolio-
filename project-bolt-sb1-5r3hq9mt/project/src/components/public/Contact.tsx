@@ -6,8 +6,6 @@ import { supabase } from '@/lib/supabase';
 import { validateContactForm, sanitizeUrl } from '@/lib/sanitize';
 import { useInView } from '@/hooks/useInView';
 
-const SUBMIT_COOLDOWN_MS = 30000;
-
 export default function Contact({ profile }: { profile: Profile | null }) {
   const { ref, inView } = useInView<HTMLDivElement>();
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
